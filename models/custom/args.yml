@@ -1,0 +1,39 @@
+!!python/object:argparse.Namespace
+batch_size: 16
+cond_disc: false
+data_path: !!python/object/apply:pathlib.PosixPath
+- /
+- home
+- marek
+- Desktop
+- code
+- melgan-neurips
+- data
+downsamp_factor: 4
+epochs: 3000
+lambda_feat: 10
+learning_rate: 0.0001
+load_from_run_id: null
+log_interval: 100
+n_layers_D: 4
+n_mel_channels: 80
+n_residual_layers: 3
+n_test_samples: 8
+ndf: 16
+ngf: 32
+notes: null
+num_D: 3
+pad_mode: reflect
+ratios:
+- 8
+- 8
+- 2
+- 2
+resume_run_id: null
+sampling_rate: 44100
+save_interval: 1000
+save_path: checkpoints
+seq_len: 8192
+train_file_sample: 'wavs/chunk_19.wav
+
+  '
